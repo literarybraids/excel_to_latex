@@ -1,5 +1,6 @@
 
 # coding: utf-8
+# Ismael Medina, 2017. github.com/literarybraids
 
 """  PARAMETERS """
 
