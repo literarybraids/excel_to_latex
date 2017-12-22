@@ -11,6 +11,7 @@ Soon I'll upload a .exe file too.
 ## Default use
 
 Simple: select the cells you want from an Excel or OpenOffice file, copy them and call excel_to_latex: <br>
+
 ``` python excel_to_latex.py ```
 
 It will read your clipboard and get you a LaTeX tabular. Of course you can as well run it from a Python console.
