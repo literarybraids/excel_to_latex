@@ -10,14 +10,17 @@ Soon I'll upload a .exe file too.
 
 ## Default use
 
-Simple: select the cells you want from en Excel or OpenOffice file, copy them and call excel_to_latex. It will read your clipboard and get you a LaTeX tabular.
+Simple: select the cells you want from an Excel or OpenOffice file, copy them and call excel_to_latex: <br>
+``` python excel_to_latex.py ```
+
+It will read your clipboard and get you a LaTeX tabular. Of course you can as well run it from a Python console.
 
 ## Other uses
 
 If you open the file excel_to_latex.py you will find some parameteres you can change. These are:
 
 <ul>
-  <li>filename: Default is 'clipboard'. It encodes the name of the file you want to read. If it is 'clipboard', it will read whatever you've recently copied. Nevertheless you can also read files of your computer: 
+  <li>filename: Default is 'clipboard'. It encodes the name of the file you want to read. If it is 'clipboard', it will read whatever you've recently copied. Nevertheless you can also read files from your computer: 
     <ul>
     <li> If instead of 'clipboard' you have simply None, the program will open an input form for you to write the file you desire to open. 
      <li> Also you can write directly the name of your file, (for example filename = '\Documents\data.txt')  and it will read that file. Supported filetypes are .xls, .txt and .csv.
